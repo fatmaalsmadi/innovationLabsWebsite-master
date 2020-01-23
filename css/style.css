@@ -47,9 +47,9 @@ html{
    font-family: 'Montserrat', sans-serif;
 
 }
-a:hover {
+  .fix a:hover {
    color: white;
-   background-color: #2d2769;
+  background-color: #2d2769;
    font-family: 'Montserrat', sans-serif;
    border-radius: 5px;
 }
@@ -222,8 +222,8 @@ hr {
    width: 21%;
    height: 326px;
    padding: 39px;
-   font-size: 14px;
-   margin-top: 86px;
+   font-size: 18px;
+   margin-top: 85px;
 
 
 }
@@ -244,8 +244,7 @@ hr {
     text-align: center;
 }
  .List a:hover{
-  background-color:#dadada; ;
-   
+ 
    color: black; 
    
    text-decoration:underline;
@@ -267,6 +266,7 @@ li{
    width: 12%;
    margin-right: 12px;
    margin-left: -43px;
+   
 }
 
 
@@ -313,9 +313,10 @@ li{
    color: black;
    font-size: 18px;
 }
-.parq a {
+.parq a  {
    font-family: 'Montserrat', sans-serif;
    color: rgb(81, 122, 175);
+
 }
 #mapid {
    margin-top:200px;
@@ -350,11 +351,7 @@ li{
 .img-loc1:hover,.img-loc:hover{
    transform: scale(1.5,1.5);
 }
-/* .img-loc[title]{
-   width: 100px;
-   height: 100px;
-   border: 5px dashed red;
-} */
+
 .ammar{
    margin: 5px;
    padding: 7px;
